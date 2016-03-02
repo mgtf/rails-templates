@@ -1,7 +1,7 @@
 run "rm Gemfile"
 file 'Gemfile', <<-RUBY
 source 'https://rubygems.org'
-ruby '2.3.0'
+ruby '2.2.3'
 
 gem 'rails', '#{Rails.version}'
 gem 'puma'
